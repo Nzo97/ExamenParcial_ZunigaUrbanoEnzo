@@ -15,7 +15,11 @@ public class venta {
     private Date fecha;
     private float monto_t;
     private int n_asientos;
-    public void addasiento (Asiento asiento){
+    public void addasiento (Asiento asiento){        
+    }
+    public void setEmpleado (Empleado empleado){        
+    }
+    public void setCliente (Cliente cliente){
         
     }
     

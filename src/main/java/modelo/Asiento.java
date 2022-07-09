@@ -10,5 +10,13 @@ package modelo;
  * @author enzol
  */
 class Asiento {
+    private int num;
+    private boolean estado;
+    private float precio;
+
+    public Asiento(int num, float precio) {
+        this.num = num;
+        this.precio = precio;
+    }
     
 }
